@@ -30,7 +30,7 @@ public class TestBase {
 	public void setUp()
 	{
 		
-		//Setting grid path
+		
 		DriverFactory.setGridPath("http://192.168.0.4:5556/wd/hub");
 				
 		//Setting config file location
