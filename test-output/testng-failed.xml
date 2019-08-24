@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.extentlisteners.ExtentListeners"/>
+  </listeners>
+  <test name="validateZohoSignUpPageTitle(failed)">
+    <classes>
+      <class name="com.zohosignuptespapge.suitepack.ZohoSignUpTestPage">
+        <methods>
+          <include name="validateZohoSignUpPageTitle"/>
+          <include name="setUp"/>
+          <include name="quit"/>
+          <include name="initalization"/>
+        </methods>
+      </class> <!-- com.zohosignuptespapge.suitepack.ZohoSignUpTestPage -->
+    </classes>
+  </test> <!-- validateZohoSignUpPageTitle(failed) -->
+</suite> <!-- Failed suite [Suite] -->
